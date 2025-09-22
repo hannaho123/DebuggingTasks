@@ -1,0 +1,15 @@
+{
+    "name": "Debugging Challenges",
+    "image": "mcr.microsoft.com/devcontainers/javascript-node:0-20",
+    "features": {},
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "ms-vscode.js-debug",
+          "dbaeumer.vscode-eslint"
+        ]
+      }
+    },
+    "postCreateCommand": "npm install"
+  }
+  
