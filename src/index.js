@@ -1,5 +1,5 @@
-import { login } from "./login.js";
-import { AUTH_RECORD } from "./data.js";
+import { login } from "./helpers/login.js";
+import { AUTH_RECORD } from "./helpers/data.js";
 
 
 const username = "janesmith123"

@@ -24,7 +24,7 @@ Your task is to become a debugging detective and:
 ### Running the Application
 Execute the authentication script using:
 ```bash
-node src/index.js
+npm start
 ```
 
 **Note:** This is the main entry point where the application starts running.
@@ -42,7 +42,7 @@ In the `index.js` file, you'll find username and password variables that you can
 
 Follow these steps to start debugging:
 
-1. **Navigate to:** `src/index.js`
+1. **Navigate to:** `src/index.js` and select line 9 as your breakpoint.
 2. **Access the debugger:** Select the debugging tool from the left-hand navigation panel
 3. **Launch:** Click the "Run" button to start debugging
 
