@@ -4,8 +4,10 @@
     {
       "type": "node",
       "request": "launch",
-      "name": "Debug run.js",
-      "program": "${workspaceFolder}/run.js",
+      "name": "Debug: current file",
+      "program": "${file}",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}",
       "skipFiles": ["<node_internals>/**"]
     }
   ]
