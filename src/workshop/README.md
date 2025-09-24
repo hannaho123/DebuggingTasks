@@ -42,7 +42,7 @@ In the `index.js` file, you'll find username and password variables that you can
 
 Follow these steps to start debugging:
 
-1. **Navigate to:** `src/index.js` and select line 9 as your breakpoint.
+1. **Navigate to:** `src/workshop/index.js` and select line 9 as your breakpoint.
 2. **Access the debugger:** Select the debugging tool from the left-hand navigation panel
 3. **Launch:** Click the "Run" button to start debugging
 
