@@ -1,8 +1,8 @@
 # Practical Debugging Checklist
 
-## 1. The Reality Check (Do This First!)
+## 1. Initial Checks
 
-**Before you start panicking:**
+**Before you start:**
 - Is your file actually saved? (Seriously, check this first)
 - Are you running the right file?
 - Did you refresh the browser/restart the server after making changes?
@@ -13,7 +13,7 @@
 - Did you add any new variables, functions, or imports?
 - Are you testing the same thing you were testing before?
 
-## 2. Reading Errors (The Stuff That Actually Matters)
+## 2. Reading Errors
 
 **Stop and actually read the error message:**
 Most people see red text and panic. Don't. The computer is trying to help you.
@@ -152,7 +152,7 @@ console.log(users); // This happens first - users doesn't exist yet
 ```
 **How to spot:** Variables are undefined when you think they should have values
 
-## 4. Console.log() Debugging (What Most People Actually Do)
+## 4. Console.log() Debugging 
 
 **Strategic console.log() placement:**
 ```javascript
@@ -180,9 +180,9 @@ function validateUser(username, password) {
 
 **Pro tip:** Use descriptive labels in your console.log statements so you know what you're looking at.
 
-## 5. VSCode Debugger (The Basics That Actually Work)
+## 5. VSCode Debugger 
 
-**Setting up debugging (the simple way):**
+**Setting up debugging:**
 1. Open your main JavaScript file
 2. Click the "Run and Debug" icon in the left sidebar
 3. Click "create a launch.json file"
@@ -208,7 +208,7 @@ When stopped at a breakpoint, you can type variable names in the Debug Console t
 
 ## 6. When All Else Fails
 
-**The nuclear option:**
+**Last resort**
 1. Comment out half your code
 2. If it works, the bug is in the commented half
 3. Uncomment half of the commented code
