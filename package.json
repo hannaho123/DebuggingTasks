@@ -5,7 +5,9 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/index.js " 
+    "login": "node src/workshop/index.js" ,
+    "challenge": "node src/challenge/index.js",
+    "challenge:test": "node src/challenge/tests.js"
 
   },
   "author": "",
